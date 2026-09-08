@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Database (local SQLite file — don't commit real data)
+relay.db
+relay.db-shm
+relay.db-wal
+
+# Environment variables — NOT ignored here since this repo ships with
+# placeholder values for easy local setup. Before deploying for real,
+# add .env to this list and inject secrets (like JWT_SECRET) as actual
+# environment variables instead.
+# .env
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
